@@ -21,8 +21,6 @@ text-align: center;
 .connexion{
 width: 100%;
 height: 180px;
-border: 1px black;
-text-align: center;
 }
 }
 
@@ -37,11 +35,8 @@ float: right;
 }
 @media all and (max-device-width: 480px){
 .logo{
-background: url("http://data.nimages.fr/joebarjhv.png");
-background-size: cover;
 width: 80px;
 height: 60px;
-float: right;
 }
 }
 
@@ -58,11 +53,7 @@ border-radius: 15px;
 @media all and (max-device-width: 480px){
 .titre{
 width: 75%;
-background: url("http://data.nimages.fr/logohz5.jpg");
-background-size: cover;
 height: 35px;
-margin: auto;
-border-radius: 15px;
 }
 }
 
@@ -75,9 +66,7 @@ width: 99%;
 }
 @media all and (max-device-width: 480px){
 h1{
-text-align: center;
 font-size: 1.2em;
-width: 99%;
 }
 }
 
@@ -103,9 +92,6 @@ nav{
 width: 100%;
 height: 360px;
 float: none;
-border-radius: 15px;
-font-size: 1em;
-text-align: center;
 }
 }
 
@@ -118,7 +104,6 @@ margin: auto;
 @media all and (max-device-width: 480px){
 audio{
 width: 80%;
-margin: auto;
 }
 }
 
@@ -163,10 +148,6 @@ position: abslotute;
 @media all and (max-device-width: 480px){
 .actu1, .actu2, .actu3, .actu4, .colonnedroite, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10, .logo, .connexion{
 display: block;
-vertical-align: top;
-background-size: cover;
-border-radius: 15px;
-position: abslotute;
 }
 }
 
@@ -185,11 +166,8 @@ border: 1px solid black;
 .actu1, .actu2, .actu3, .actu4, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10{
 width: 100%;
 height: auto;
-border-radius: 15px;
 margin-left: 0;
 margin-bottom: 20px;
-position: relative;
-border: 1px solid black;
 }
 }
 
@@ -204,11 +182,7 @@ font-family: "Comic sans MS", serif;
 }
 @media all and (max-device-width: 480px){
 nav, .colonnedroite, .colonnegauche {
-background: brown;
 width: 100%;
-border-radius: 15px;
-list-style-type: none;
-font-family: "Comic sans MS", serif;
 }
 }
 
@@ -273,7 +247,6 @@ margin-left: 5px;
 @media all and (max-device-width: 480px){
 .actu3{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 250px;
@@ -299,7 +272,6 @@ margin-left: 5px;
 @media all and (max-device-width: 480px){
 .actu4{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 350px;
@@ -320,7 +292,6 @@ margin-left: 2%;
 @media all and (max-device-width: 480px){
 .actu5{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 height: 350px;
 margin-left: 0;
@@ -345,7 +316,6 @@ height: 500px;
 @media all and (max-device-width: 480px){
 .actu6{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 height: 350px;
 }
@@ -364,7 +334,6 @@ height: 500px;
 @media all and (max-device-width: 480px){
 .actu7{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 350px;
@@ -385,7 +354,6 @@ height: 500px;
 @media all and (max-device-width: 480px){
 .actu8{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 350px;
@@ -406,7 +374,6 @@ height: 500px;
 @media all and (max-device-width: 480px){
 .actu9{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 350px;
@@ -426,7 +393,6 @@ height: 500px;
 @media all and (max-device-width: 480px){
 .actu10{
 background-size: 100%;
-margin-top: 5px;
 width: 100%;
 margin-left: 0;
 height: 350px;
@@ -477,12 +443,8 @@ margin-left: 20px;
 }
 @media all and (max-device-width: 480px){
 #image1, #image2, #image3, #image4, #image5{
-border: 1px solid black;
-border-radius: 10px;
 display: block;
-vertical-align: top;
 width: 100%;
-height: 200px;
 margin-left: 0;
 margin-bottom: 20px;
 }
