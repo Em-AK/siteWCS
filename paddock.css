@@ -8,6 +8,8 @@ background: url("http://data.nimages.fr/red2azk.png");
 background-size: cover;
 }
 
+
+
 .connexion{
 width: 350px;
 height: 180px;
@@ -15,6 +17,16 @@ float: left;
 border: 1px black;
 text-align: center;
 }
+@media all and (max-device-width: 480px){
+.connexion{
+width: 100%;
+height: 180px;
+border: 1px black;
+text-align: center;
+}
+}
+
+
 
 .logo{
 background: url("http://data.nimages.fr/joebarjhv.png");
@@ -23,6 +35,17 @@ width: 350px;
 height: 200px;
 float: right;
 }
+@media all and (max-device-width: 480px){
+.logo{
+background: url("http://data.nimages.fr/joebarjhv.png");
+background-size: cover;
+width: 80px;
+height: 60px;
+float: right;
+}
+}
+
+
 
 .titre{
 width: 800px;
@@ -32,18 +55,40 @@ height: 115px;
 margin: auto;
 border-radius: 15px;
 }
+@media all and (max-device-width: 480px){
+.titre{
+width: 75%;
+background: url("http://data.nimages.fr/logohz5.jpg");
+background-size: cover;
+height: 35px;
+margin: auto;
+border-radius: 15px;
+}
+}
+
+
 
 h1{
 text-align: center;
 font-size: 2em;
 width: 99%;
 }
+@media all and (max-device-width: 480px){
+h1{
+text-align: center;
+font-size: 1.2em;
+width: 99%;
+}
+}
+
 
 h2{
 text-align: center;
 font-size: 1.2em;
-font-family: 'Pacifico', cursive, serif;
+font-family: 'Pacifico', cursive;
 }
+
+
 
 nav{
 width: 250px;
@@ -53,16 +98,44 @@ border-radius: 15px;
 font-size: 1em;
 text-align: center;
 }
+@media all and (max-device-width: 480px){
+nav{
+width: 100%;
+height: 360px;
+float: none;
+border-radius: 15px;
+font-size: 1em;
+text-align: center;
+}
+}
+
+
+
 audio{
 width: 200px;
 margin: auto;
 }
+@media all and (max-device-width: 480px){
+audio{
+width: 80%;
+margin: auto;
+}
+}
+
 
 .colonnedroite{
 width: 250px;
 height: 905px;
 float: right;
 }
+@media all and (max-device-width: 480px){
+.colonnedroite{
+width: 100%;
+height: 705px;
+float: none;
+}
+}
+
 
 .cd{
 text-align: center;
@@ -78,6 +151,9 @@ article{
 position: relative;
 }
 
+
+
+
 .actu1, .actu2, .actu3, .actu4, .colonnedroite, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10, .logo, .connexion{
 display: inline-block;
 vertical-align: top;
@@ -85,6 +161,18 @@ background-size: cover;
 border-radius: 15px;
 position: abslotute;
 }
+@media all and (max-device-width: 480px){
+.actu1, .actu2, .actu3, .actu4, .colonnedroite, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10, .logo, .connexion{
+display: block;
+vertical-align: top;
+background-size: cover;
+border-radius: 15px;
+position: abslotute;
+}
+}
+
+
+
 
 .actu1, .actu2, .actu3, .actu4, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10{
 width: 36%;
@@ -94,6 +182,19 @@ margin-left: 5px;
 position: relative;
 border: 1px solid black;
 }
+@media all and (max-device-width: 480px){
+.actu1, .actu2, .actu3, .actu4, .actu5, .actu6, .actu7, .actu8, .actu9, .actu10{
+width: 100%;
+height: auto;
+border-radius: 15px;
+margin-left: 0;
+margin-bottom: 20px;
+position: relative;
+border: 1px solid black;
+}
+}
+
+
 
 nav, .colonnedroite, .colonnegauche {
 background: brown;
@@ -102,13 +203,32 @@ border-radius: 15px;
 list-style-type: none;
 font-family: "Comic sans MS", serif;
 }
+@media all and (max-device-width: 480px){
+nav, .colonnedroite, .colonnegauche {
+background: brown;
+width: 100%;
+border-radius: 15px;
+list-style-type: none;
+font-family: "Comic sans MS", serif;
+}
+}
+
+
 
 .actu1{
 width: 72%;
 height: 250px;
 margin-left: 5px;
-
 }
+@media all and (max-device-width: 480px){
+.actu1{
+width: 100%;
+height: auto;
+margin-left: 0;
+}
+}
+
+
 
 .actu2{
 background: url("");
@@ -117,11 +237,32 @@ height: 280px;
 margin-left: 5px;
 margin-top: 5px;
 }
+@media all and (max-device-width: 480px){
+.actu2{
+background: url("");
+width: 100%;
+height: auto;
+margin-left: 0;
+margin-top: 5px;
+}
+}
+
+
+
 
 .colonnegauche{
 height: 450px;
 float: left;
 }
+@media all and (max-device-width: 480px){
+.colonnegauche{
+height: 250px;
+float: none;
+}
+}
+
+
+
 
 .actu3{
 background-repeat: no-repeat;
@@ -130,17 +271,40 @@ width: 47%;
 height: 280px;
 margin-left: 5px;
 }
+@media all and (max-device-width: 480px){
+.actu3{
+background-repeat: no-repeat;
+margin-top: 5px;
+width: 100%;
+height: auto;
+margin-left: 5px;
+}
+}
+
+
+
 
 .img1, .img2, .img3, .img4, .img5, .img8, .img9, .img10 {
 float: left;
 border-radius: 15px;
 }
 
+
+
 .actu4{
 margin-top: 5px;
 width: 36%;
 margin-left: 5px;
 }
+@media all and (max-device-width: 480px){
+.actu4{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+}
+}
+
+
 
 
 .actu5{
@@ -148,17 +312,38 @@ margin-top: 5px;
 width: 36%;
 margin-left: 5px;
 }
+@media all and (max-device-width: 480px){
+.actu5{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+}
+}
+
+
 
 .img6 , .img7{
 float: right;
 border-radius: 15px;
 }
 
+
+
 .actu6{
 margin-top: 5px;
 width: 45%;
 height: 280px;
 }
+@media all and (max-device-width: 480px){
+.actu6{
+margin-top: 5px;
+width: 100%;
+height: auto;
+}
+}
+
+
+
 
 .actu7{
 margin-top: 5px;
@@ -166,6 +351,17 @@ width: 53%;
 margin-left: 5px;
 height: 280px;
 }
+@media all and (max-device-width: 480px){
+.actu7{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+height: auto;
+}
+}
+
+
+
 
 .actu8{
 margin-top: 5px;
@@ -173,6 +369,17 @@ width: 33%;
 margin-left: 5px;
 height: 280px;
 }
+@media all and (max-device-width: 480px){
+.actu8{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+height: auto;
+}
+}
+
+
+
 
 .actu9{
 margin-top: 5px;
@@ -180,6 +387,17 @@ width: 25%;
 margin-left: 5px;
 height: 280px;
 }
+@media all and (max-device-width: 480px){
+.actu9{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+height: auto;
+}
+}
+
+
+
 
 .actu10{
 margin-top: 5px;
@@ -187,6 +405,17 @@ width: 40%;
 margin-left: 5px;
 height: 280px;
 }
+@media all and (max-device-width: 480px){
+.actu10{
+margin-top: 5px;
+width: 100%;
+margin-left: 0;
+height: auto;
+}
+}
+
+
+
 
 .descriptif{
 width:100%;
@@ -223,6 +452,19 @@ width: 18%;
 height: 200px;
 margin-left: 20px;
 }
+@media all and (max-device-width: 480px){
+#image1, #image2, #image3, #image4, #image5{
+border: 1px solid black;
+border-radius: 10px;
+display: block;
+vertical-align: top;
+width: 100%;
+height: 200px;
+margin-left: 0;
+margin-bottom: 20px;
+}
+}
+
 
 #image1{
 background: url("http://data.nimages.fr/moto1jfq.jpg");
