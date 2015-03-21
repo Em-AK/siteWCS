@@ -157,7 +157,7 @@ width: 36%;
 height: 450px;
 border: 1px solid black;
 border-radius: 15px;
-margin-left: 5px;
+margin-left: 3px;
 position: relative;
 }
 @media all and (max-device-width: 480px){
